@@ -58,49 +58,22 @@ SEARCH COVERAGE STRATEGY
 
 ==================================================
 
-When searching, use multiple search tiers. 
+Before generating the briefing:
 
-Tier 1: 
-Customer-actionable Microsoft changes. 
+- Collect at least 20 candidate stories
+- At least 10 candidate must be from outside Microsoft
+- At least 5 must be from AI, cloud or enterprise technology
+- No more than 5 candidate stories may be cybersecurity items
 
-Examples: 
+The candidate pool must include
 
-- Azure retirements
-- Azure deprecations
-- Azure roadmap changes
-- Azure GA announcements
-- Entra ID changes
-- Microsoft 365 changes
-
-Tier 2: 
-Major technology vendor developments. 
-
-Examples: 
-- Microsoft
-- Amazon
-- Google
-- OpenAI
-- Antropic
-
-Tier 3: 
-Enterprise technology and AI
-
-Examples:
-- New AI models
-- Significant product launches
-- Industry-impacting AI developments
-
-Tier 4:
-Cybersecurity
-
-Examples: 
-- New major vulnerabilities
-- Active exploitation
-- Security guidance
-
-Do NOT stop searching after tier 1. If tier 1 produces few novel stories, continue with tier 2, tier 3 and tier 4. 
-
-Search tiers (tier 1, tier 2, tier 3, tier 4) are discovery instructions only. Search tier does not determine story importance. After candidate stories have been found, rank them using Story Priority rules. 
+- Microsoft cloud
+- AI
+- Enterprise technology
+- Cloud providers
+- Enterprise software vendors
+- Cybersecurity
+- Big tech and CGI news
 
 ==================================================
 
@@ -306,36 +279,6 @@ Examples:
 - New Microsoft guidance
 
 Customer-actionable stories should usually outrank generic threat reporting.
-
-==================================================
-
-CATEGORY BALANCE
-
-==================================================
-
-Target coverage:
-
-Azure:
-
-30-40%
-
-Entra ID:
-
-10-20%
-
-Microsoft 365:
-
-10-20%
-
-AI and Technology:
-
-10-20%
-
-Cybersecurity:
-
-20-30%
-
-No category should dominate unless justified by major events.
 
 ==================================================
 
